@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 1000px;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-image:url(img/bg.jpg);
+    background-size: 100% 100%;
+
+}
+.btn{
+    height: 140px;
+    width: 170px;
+    position: absolute;
+    left: 50px;
+    background-image: url(img/startGame.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.box{
+    width:500px;
+    height: 500px;
+    /* transform: perspective(800px) rotateX(45deg); */
+    margin: 150px auto;
+    border-top:1px solid #b25f27;
+    border-left:1px solid #b25f27;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    display: none;
+}
+.flagBox{
+    position: absolute;
+    top:100px;
+    left:50%;
+    width:200px;
+    height: 50px;
+    margin-left:-100px;
+    color:#333;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+}
+.alertBox{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.2);
+}
+.alertImg{
+    width:600px;
+    height: 400px;
+    background-image: url('img/success.png');
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+    border-radius: 20px;
+}
+.close{
+    position: absolute;
+    top:0;
+    right:0;
+    height: 40px;
+    width:40px;
+    background-image: url('img/closeBtn.png');
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.block{
+    width: 49px;
+    height: 49px;
+    float: left;
+    border-right: 1px solid #b25f27;
+    border-bottom: 1px solid #b25f27;
+    box-shadow: 0 0 4px #333 inset;
+    background-image: url('img/cao.jpg');
+}
+.show{
+    background-image: url(img/dilei.jpg);
+    background-size: 100% 100%;
+}
+.num{
+    background-color:#ecd0a1;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 49px;
+    background-image:none;
+}
+.flag{
+    background-image: url('img/hongqi.jpg');
+    background-size: 100%  100%;
+}
